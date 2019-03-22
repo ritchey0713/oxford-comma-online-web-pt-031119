@@ -11,6 +11,8 @@
 #   end 
 # end
 
+# .join doesnt work array > 2 
+
 def oxford_comma(array)
   case array 
   
