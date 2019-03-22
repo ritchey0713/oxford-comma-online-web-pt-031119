@@ -1,3 +1,4 @@
+require 'pry'
 # def oxford_comma(array)
 #   if array.length == 1 
 #     return array.join 
@@ -14,6 +15,7 @@
 # .join doesnt work array > 2 
 
 def oxford_comma(array)
+  binding.pry 
   case array 
   
   when array.length == 1 
